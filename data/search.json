@@ -1,0 +1,55 @@
+{
+  "rows": [
+    {
+      "updated": "2013-04-12T17:30:47.474488+00:00", 
+      "target": [
+        {
+          "source": "http://en.wikipedia.org/wiki/Fox", 
+          "selector": [
+            {
+              "type": "RangeSelector", 
+              "startContainer": "/div[3]/div[3]/div[4]/p[2]", 
+              "endContainer": "/div[3]/div[3]/div[4]/p[2]", 
+              "startOffset": 0, 
+              "endOffset": 131
+            }, 
+            {
+              "type": "TextQuoteSelector", 
+              "prefix": "t, and a bushy tail (or brush).", 
+              "exact": "Members of about 37 species are referred to as foxes, of which only 12 species actually belong to the Vulpes genus of \"true foxes\".", 
+              "suffix": "By far the most common and wide"
+            }, 
+            {
+              "start": 832, 
+              "end": 963, 
+              "type": "TextPositionSelector"
+            }
+          ], 
+          "$$hashKey": "02B", 
+          "quote": "Members of about 37 species are referred to as foxes, of which only 12 species actually belong to the Vulpes genus of \"true foxes\"."
+        }
+      ], 
+      "created": "2013-04-12T17:30:47.474455+00:00", 
+      "id": "cPj9kSwJTFizvAygcvqMGw", 
+      "permissions": {
+        "read": [
+          "group:__world__", 
+          "acct:hubothesis@test.hypothes.is"
+        ], 
+        "admin": [
+          "acct:hubothesis@test.hypothes.is"
+        ], 
+        "update": [
+          "acct:hubothesis@test.hypothes.is"
+        ], 
+        "delete": [
+          "acct:hubothesis@test.hypothes.is"
+        ]
+      }, 
+      "consumer": "00000000-0000-0000-0000-000000000000", 
+      "uri": "http://en.wikipedia.org/wiki/Fox", 
+      "user": "acct:hubothesis@test.hypothes.is"
+    }
+  ], 
+  "total": 1
+}
